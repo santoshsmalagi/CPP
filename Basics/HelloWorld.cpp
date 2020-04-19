@@ -1,5 +1,6 @@
 /* HelloWorld.cpp
-   This is the first C++ program
+This is the traditional first C++ program.
+Prints "Hello World!".
 */
 
 #include <iostream>

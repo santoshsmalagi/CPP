@@ -1,2 +1,2 @@
 # CPP
-Collection of my C++ programs - staring from ground up to advanced.
+Collection of my C++ programs.

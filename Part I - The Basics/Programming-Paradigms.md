@@ -46,3 +46,5 @@ Programming paradigms are a way to classify programming languages based on their
 * **Shell-Scripting** - though shell-scripting does not really fall into the category of mainstream programming languages (it is a scripting language), it is imperative or procedural programming
 * **Tcl** - supports multiple programming paradigms - object-oriented, imperative and functional programming styles.
 
+Add images to illustrate both the programming paradigms
+all OOP concepts as one liners

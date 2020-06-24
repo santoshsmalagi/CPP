@@ -13,6 +13,16 @@ Programming paradigms are a way to classify programming languages based on their
 > *Many programming languages cannot be strictly classified into one paradigm, but rather include features from several paradigms.*
 
 # Procedural (Imperative) Paradigm
+* **Characteristics**
+  * The problem is broken down into smaller parts, implemented as a sequence of instructions which are logically grouped together in the form of functions or sub-modules
+  * Data (often shared between functions) is organized in the form of data structures
+  * Functions have hooks - defined interfaces for data access, and modify or operate on this data. This data can be passed on to other functions for further processing.
+  * Sequence of operations is repeated till the intended goal is achieved
+* **Drawbacks**
+  * Global data moves freely around the system, and hence is vulnerable to change
+  * A revision of a data structure must reflect across all functions which make use of this data
+  * There is no explicit relationship between the functions and data structures, to solve a problem, we need to choose the data structure and then go and find the appropriate function(s) to be applied to it.
+
 
 # Object-Oriented Programming Paradigm
 
@@ -21,7 +31,7 @@ Programming paradigms are a way to classify programming languages based on their
 ## Common programming languages and paradigms supported by them:
 
 * **C** - mostly an imperative or procedural programming language, but can implement OOP concepts (which is not very efficient)
-* **C++** - mostly intended as an object-oriented programming language, though C++ programs can also be written in pure procedural paradigm
+* **C++** - mostly intended as an object-oriented programming language, though C++ can also be written as pure procedural programs
 * **Python** - supports imperative, functional, procedural, and object-oriented programming
 * **Shell-Scripting** - though shell-scripting does not really fall into the category of mainstream programming languages (it is a scripting language), it is imperative or procedural programming
 * **Tcl** - supports multiple programming paradigms, including object-oriented, imperative and functional programming styles.

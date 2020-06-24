@@ -18,6 +18,8 @@ Programming paradigms are a way to classify programming languages based on their
   * Data (often shared between functions) is organized in the form of data structures
   * Functions have hooks - defined interfaces for data access, and modify or operate on this data. This data can be passed on to other functions for further processing.
   * Sequence of operations is repeated till the intended goal is achieved
+  * Emphasis is on the procedure or algorithm (way of doing things)
+  * Employs top-down approach to program design
 * **Drawbacks**
   * Global data moves freely around the system, and hence is vulnerable to change
   * A revision of a data structure must reflect across all functions which make use of this data
@@ -25,6 +27,14 @@ Programming paradigms are a way to classify programming languages based on their
 
 
 # Object-Oriented Programming Paradigm
+* **Characteristics**
+  * The functions that can be applied to a particular type of data structure are packaged with the data - this package is referred to as an *object*
+  * Multiple copies or instances of same object type store data in their respective memory partitions, and all objects of the same type share the functions
+  * Data does not flow freely in the system since it is only accessible by the functions associated with that object type, in this way it is protected from accidental modification - i.e. data is hidden (data encapsulation)
+  * Objects communicate with each other via functions (message passing)
+  * Emphasis is on the data rather than the procedure
+  * Employs bottom-up approach to program design
+  
 
 > *A language is said to support a style of programming if it provides facilities that make it convenient (reasonably easy, safe, and efficient) to use that style. A language does not support a technique if it takes exceptional effort or skill to write such programs; it merely enables the technique to be used. For example, it is possible to write structured programs in FORTRAN and Object-Oriented programs in C, but it is unnecessarily hard to do so because these languages do not directly support those techniques.*
 

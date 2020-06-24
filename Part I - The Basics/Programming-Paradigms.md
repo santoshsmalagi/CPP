@@ -42,7 +42,7 @@ Programming paradigms are a way to classify programming languages based on their
 
 * **C** - mostly an imperative or procedural programming language, but can implement OOP concepts (which is not very efficient)
 * **C++** - mostly intended as an object-oriented programming language, though C++ can also be written as pure procedural programs
-* **Python** - supports imperative, functional, procedural, and object-oriented programming
+* **Python** - supports imperative (procedural), functional, and object-oriented programming
 * **Shell-Scripting** - though shell-scripting does not really fall into the category of mainstream programming languages (it is a scripting language), it is imperative or procedural programming
-* **Tcl** - supports multiple programming paradigms, including object-oriented, imperative and functional programming styles.
+* **Tcl** - supports multiple programming paradigms - object-oriented, imperative and functional programming styles.
 

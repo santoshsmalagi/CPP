@@ -35,6 +35,21 @@ Programming paradigms are a way to classify programming languages based on their
   * Emphasis is on the data rather than the procedure
   * Employs bottom-up approach to program design
   
+## Basic concepts of OOP:
+* **Objects**
+  * Basic runtime entities in an object oriented system
+  * Programming problems analyzed in terms of the objects and nature of the communication between them
+  * Occupy memory and have an associated address
+  * Objects interact by sending messages to each other, without having to know the internal details of each other's code or data
+  * Suffices to know the type of message or response accepted
+* **Classes**
+* **Data Abstraction and Encapsulation**
+* **Inheritance**
+* **Polymorphism**
+* **Dynamic Binding**
+* **Message Passing**
+
+
 
 > *A language is said to support a style of programming if it provides facilities that make it convenient (reasonably easy, safe, and efficient) to use that style. A language does not support a technique if it takes exceptional effort or skill to write such programs; it merely enables the technique to be used. For example, it is possible to write structured programs in FORTRAN and Object-Oriented programs in C, but it is unnecessarily hard to do so because these languages do not directly support those techniques.*
 

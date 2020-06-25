@@ -43,7 +43,18 @@ Programming paradigms are a way to classify programming languages based on their
   * Objects interact by sending messages to each other, without having to know the internal details of each other's code or data
   * Suffices to know the type of message or response accepted
 * **Classes**
+  * The data and the associated functions can be grouped together and made a *user-defined* type using a class
+  * *Objects* are nothing but variables of type *class*
+  * Once a class is defined, multiple objects of type class can be created
 * **Data Abstraction and Encapsulation**
+  * The wrapping up of data and functions into a single unit (aka *class*) is known as *data encapsulation
+  * Data is not accessible to the outside world and only those functions which are members of the class can access it
+  * Functions provide a means to interact with the object's data 
+  * Insulation of data from direct access by a program is called *data hiding* or *information hiding*
+  * *Data abstraction* - refers to the process of only representing the essential information while hiding the background details
+  * Attribute - refers to the data members of a class
+  * Functions which operate on these attributes (data members) - are called member functions of the class or methods
+  * So classess hide the attributes (data members), encapsulate the data and operators (functions) hence also called as - *Abstract Data Types*
 * **Inheritance**
 * **Polymorphism**
 * **Dynamic Binding**
@@ -62,4 +73,4 @@ Programming paradigms are a way to classify programming languages based on their
 * **Tcl** - supports multiple programming paradigms - object-oriented, imperative and functional programming styles.
 
 Add images to illustrate both the programming paradigms
-all OOP concepts as one liners
+all OOP concepts as one liners until section 1.6.

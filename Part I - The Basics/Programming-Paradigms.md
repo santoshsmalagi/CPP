@@ -36,34 +36,50 @@ Programming paradigms are a way to classify programming languages based on their
   * Emphasis is on the data rather than the procedure
   * Employs bottom-up approach to program design
 
-  
 ## Basic concepts of OOP:
 * **Objects**
-  * Basic runtime entities in an object oriented system
+  * Basic runtime entities in an object oriented system representing any data item which a program has to handle
   * Programming problems analyzed in terms of objects and thier interactions
   * Occupy memory and have an associated address  
   
 * **Classes**
-  * The data and the associated functions can be grouped together and made a *user-defined* type using a class
-  * *Objects* are nothing but variables of type *class*
-  * Once a class is defined, multiple objects of type class can be created
+  * The data and the associated functions are grouped together to create a *user-defined* type known as a class
+  * *Objects* are variables of type *class*
+  * *Attribute* - refers to the data members of a class
+  * Functions which operate on these attributes - are called member functions of the class or methods
+  
 * **Data Abstraction and Encapsulation**
-  * The wrapping up of data and functions into a single unit (aka *class*) is known as *data encapsulation
+  * The wrapping up of data and functions into a single unit (class) is known as *data encapsulation*
   * Data is not accessible to the outside world and only those functions which are members of the class can access it
   * Functions provide a means to interact with the object's data 
   * Insulation of data from direct access by a program is called *data hiding* or *information hiding*
   * *Data abstraction* - refers to the process of only representing the essential information while hiding the background details
-  * Attribute - refers to the data members of a class
-  * Functions which operate on these attributes (data members) - are called member functions of the class or methods
-  * So classess hide the attributes (data members), encapsulate the data and operators (functions) hence also called as - *Abstract Data Types*
+
+> Since classess hide the attributes (data members), encapsulate the data and functions(data) they are also called as - *Abstract Data Types*
+
 * **Inheritance**
+* *Inheritance* is the property by which the objects of one class acquire the properties of objects of another class
+* Inheritance promotes *reusability* - an existing class can be extended by adding new features, and a new class can be *derived* from it without modifying the original
+
 * **Polymorphism**
+* *Polymorphism* is the ability to exhibit different behaviours under different contexts
+* Polymorphism is implemented using *operator overloading* (same operator behaves differently depending on operands) and *function overloading* (same function name performs different tasks depending on the parameters)
+* Polymorphism allows objects having different internal structures to share the same external interface
+* Polymorphism is extensively used to implement inheritance
+
 * **Dynamic Binding**
+* *Dynamic Binding* - code associated with a given procedure is not known until the time of call at runtime
+* Dynamic binding is associated with polymorphism and inheritance
+
 * **Message Passing**
+* Objects in an object oriented system communicate by passing *messages*
+* *Message Passing* - involves specifying the name of the object, name of the function (message) and the information to be sent
+* Basically, a message triggers the execution of a procedure (function or method) in the receiving object to generate the desired output
 
-
-
-> *A language is said to support a style of programming if it provides facilities that make it convenient (reasonably easy, safe, and efficient) to use that style. A language does not support a technique if it takes exceptional effort or skill to write such programs; it merely enables the technique to be used. For example, it is possible to write structured programs in FORTRAN and Object-Oriented programs in C, but it is unnecessarily hard to do so because these languages do not directly support those techniques.*
+> **Program Design in an Object Oriented Programming language involves the following steps:**
+  * Create classes with the data structures and associated functions
+  * Create objects from class definitions
+  * Establish communication between objects belonging to different classes
 
 ## Common programming languages and paradigms supported by them:
 
@@ -73,5 +89,4 @@ Programming paradigms are a way to classify programming languages based on their
 * **Shell-Scripting** - though shell-scripting does not really fall into the category of mainstream programming languages (it is a scripting language), it is imperative or procedural programming
 * **Tcl** - supports multiple programming paradigms - object-oriented, imperative and functional programming styles.
 
-Add images to illustrate both the programming paradigms
-all OOP concepts as one liners until section 1.6.
+> *A language is said to support a style of programming if it provides facilities that make it convenient (reasonably easy, safe, and efficient) to use that style. A language does not support a technique if it takes exceptional effort or skill to write such programs; it merely enables the technique to be used. For example, it is possible to write structured programs in FORTRAN and Object-Oriented programs in C, but it is unnecessarily hard to do so because these languages do not directly support those techniques.*

@@ -91,3 +91,6 @@ Programming paradigms are a way to classify programming languages based on their
 * **Tcl** - supports multiple programming paradigms - object-oriented, imperative and functional programming styles.
 
 > *A language is said to support a style of programming if it provides facilities that make it convenient (reasonably easy, safe, and efficient) to use that style. A language does not support a technique if it takes exceptional effort or skill to write such programs; it merely enables the technique to be used. For example, it is possible to write structured programs in FORTRAN and Object-Oriented programs in C, but it is unnecessarily hard to do so because these languages do not directly support those techniques.*
+
+## OOP Paradigm Advantages
+## OOP as a misnomer

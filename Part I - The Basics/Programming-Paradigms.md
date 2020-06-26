@@ -55,7 +55,7 @@ Programming paradigms are a way to classify programming languages based on their
   * Insulation of data from direct access by a program is called *data hiding* or *information hiding*
   * *Data abstraction* - refers to the process of only representing the essential information while hiding the background details
 
-> Since classess hide the attributes (data members), encapsulate the data and functions(data) they are also called as - *Abstract Data Types*
+> *Since classess hide the attributes (data members), encapsulate the data and functions(data) they are also called as - Abstract Data Types*
 
 * **Inheritance**
 * *Inheritance* is the property by which the objects of one class acquire the properties of objects of another class
@@ -77,9 +77,9 @@ Programming paradigms are a way to classify programming languages based on their
 * Basically, a message triggers the execution of a procedure (function or method) in the receiving object to generate the desired output
 
 > **Program Design in an Object Oriented Programming language involves the following steps:**
-  * Create classes with the data structures and associated functions
-  * Create objects from class definitions
-  * Establish communication between objects belonging to different classes
+> 1. Create classes with the data structures and associated functions
+> 1. Create objects from class definitions
+> 1. Establish communication between objects belonging to different classes
 
 ## Common programming languages and paradigms supported by them:
 

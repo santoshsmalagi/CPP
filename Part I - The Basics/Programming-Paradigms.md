@@ -14,13 +14,13 @@ Programming paradigms are a way to classify programming languages based on their
 
 # Procedural (Imperative) Paradigm
 * **Characteristics**
-  * The problem is broken down into smaller parts, implemented as a sequence of instructions logically grouped together in the form of functions or sub-modules
-  * Data (often shared between functions) is organized in the form of data structures, functions operate and modify this data
-  * Functions pass data between each other using defined interfactes (i.e. parameters)
-  * Sequence of operations is repeated till the intended goal is achieved
+  * The problem is broken down into smaller parts, implemented as a sequence of instructions logically grouped together as functions or sub-modules
+  * Data is organized in the form of data structures
+  * Functions operate and modify this data, they pass data to each other using defined interfactes (i.e. parameters)
+  * This sequence of operations is repeated till the intended goal is achieved
   * Emphasis is on the procedure or algorithm (way of doing things)
   * Employs top-down approach to program design
-  * There is no explicit relationship between the functions and data structures - to solve a problem we choose a data structure a appropriate function to process it
+  * There is no explicit relationship between the functions and data structures, i.e.often data is shared between functions - *global data*
 * **Drawbacks**
   * Global data moves freely around the system, and hence is vulnerable to change
   * A revision of a data structure must reflect across all functions which make use this data structure
@@ -28,11 +28,11 @@ Programming paradigms are a way to classify programming languages based on their
 # Object-Oriented Programming Paradigm
 * **Characteristics**
   * Data structures and thier associated functions are packaged to form *objects* - *data encapsulation*
-    * Objects of the same type store data in their respective memory partitions, and share the associated functions
-  * Data does not flow freely in the system, it is only accessible by the functions associated with it, in this way it is protected from accidental modification - *data hiding*
-  * Objects of different types interact with each other via functions by sending messages - *message passing*
+  * Objects of the same type store data in their respective memory partitions, and share functions
+  * Data does not flow freely in the system it is only accessible by the functions associated with it, in this way it is protected from accidental modification - *data hiding*
+  * Objects of different types interact with each other by exchanging messages between functions - *message passing*
   * It suffices to know the message type and expected response without having to know the internal details of each other's functions or data - *data abstraction*
-  * A programming poblem is solved by creating objects (data + associated functions) and as a sequence of interactions between objects of different types
+  * A programming poblem is solved by creating objects (data + associated functions) and as a sequence of interaction between objects of different types
   * Emphasis is on the data rather than the procedure
   * Employs bottom-up approach to program design
 
@@ -40,10 +40,9 @@ Programming paradigms are a way to classify programming languages based on their
 ## Basic concepts of OOP:
 * **Objects**
   * Basic runtime entities in an object oriented system
-  * Programming problems analyzed in terms of the objects and nature of the communication between them
-  * Occupy memory and have an associated address
-
-  * Suffices to know the type of message or response accepted
+  * Programming problems analyzed in terms of objects and thier interactions
+  * Occupy memory and have an associated address  
+  
 * **Classes**
   * The data and the associated functions can be grouped together and made a *user-defined* type using a class
   * *Objects* are nothing but variables of type *class*

@@ -58,23 +58,24 @@ Programming paradigms are a way to classify programming languages based on their
 > *Since classess hide the attributes (data members), encapsulate the data and functions(data) they are also called as - Abstract Data Types*
 
 * **Inheritance**
-* *Inheritance* is the property by which the objects of one class acquire the properties of objects of another class
-* Inheritance promotes *reusability* - an existing class can be extended by adding new features, and a new class can be *derived* from it without modifying the original
+  * *Inheritance* is the property by which the objects of one class acquire the properties of objects of another class
+  * Inheritance promotes *reusability* - an existing class can be extended by adding new features, and a new class can be *derived* from it without modifying the original
 
 * **Polymorphism**
-* *Polymorphism* is the ability to exhibit different behaviours under different contexts
-* Polymorphism is implemented using *operator overloading* (same operator behaves differently depending on operands) and *function overloading* (same function name performs different tasks depending on the parameters)
-* Polymorphism allows objects having different internal structures to share the same external interface
-* Polymorphism is extensively used to implement inheritance
+  * *Polymorphism* is the ability to exhibit different behaviours under different contexts
+  * Polymorphism is implemented using *operator overloading* (same operator behaves differently depending on operands) and *function overloading* (same function name performs 
+    different tasks depending on the parameters)
+  * Polymorphism allows objects having different internal structures to share the same external interface
+  * Polymorphism is extensively used to implement inheritance
 
 * **Dynamic Binding**
-* *Dynamic Binding* - code associated with a given procedure is not known until the time of call at runtime
-* Dynamic binding is associated with polymorphism and inheritance
+  * *Dynamic Binding* - code associated with a given procedure is not known until the time of call at runtime
+  * Dynamic binding is associated with polymorphism and inheritance
 
 * **Message Passing**
-* Objects in an object oriented system communicate by passing *messages*
-* *Message Passing* - involves specifying the name of the object, name of the function (message) and the information to be sent
-* Basically, a message triggers the execution of a procedure (function or method) in the receiving object to generate the desired output
+  * Objects in an object oriented system communicate by passing *messages*
+  * *Message Passing* - involves specifying the name of the object, name of the function (message) and the information to be sent
+  * Basically, a message triggers the execution of a procedure (function or method) in the receiving object to generate the desired output
 
 > **Program Design in an Object Oriented Programming language involves the following steps:**
 > 1. Create classes with the data structures and associated functions

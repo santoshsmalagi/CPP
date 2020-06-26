@@ -47,16 +47,16 @@ Programming paradigms are a way to classify programming languages based on their
   * *Objects* are variables of type *class*
   * *Attribute* - refers to the data members of a class
   * Functions which operate on these attributes - are called member functions of the class or methods
-  
+
+> *Since classess hide the attributes (data members), encapsulate the data and functions(data) they are also called as - Abstract Data Types*
+
 * **Data Abstraction and Encapsulation**
   * The wrapping up of data and functions into a single unit (class) is known as *data encapsulation*
   * Data is not accessible to the outside world and only those functions which are members of the class can access it
   * Functions provide a means to interact with the object's data 
   * Insulation of data from direct access by a program is called *data hiding* or *information hiding*
   * *Data abstraction* - refers to the process of only representing the essential information while hiding the background details
-
-> *Since classess hide the attributes (data members), encapsulate the data and functions(data) they are also called as - Abstract Data Types*
-
+  
 * **Inheritance**
   * *Inheritance* is the property by which the objects of one class acquire the properties of objects of another class
   * Inheritance promotes *reusability* - an existing class can be extended by adding new features, and a new class can be *derived* from it without modifying the original

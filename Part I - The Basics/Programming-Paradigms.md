@@ -24,8 +24,8 @@ Programming paradigms are a way to classify programming languages based on their
 * **Drawbacks**
   * Global data moves freely around the system, and hence is vulnerable to change
   * A revision of a data structure must reflect across all functions which make use this data structure
-  
-![Procedural Programming Paradigm](proc.jpg)
+
+![Procedural Programming](/assets/proc.jpg)
 
 # Object-Oriented Programming Paradigm
 * **Characteristics**
@@ -37,6 +37,8 @@ Programming paradigms are a way to classify programming languages based on their
   * A programming poblem is solved by creating objects (data + associated functions) and as a sequence of interaction between objects of different types
   * Emphasis is on the data rather than the procedure
   * Employs bottom-up approach to program design
+
+![Object Oriented Programming](/assets/oop.jpg)
 
 ## Basic concepts of OOP:
 * **Objects**

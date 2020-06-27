@@ -105,4 +105,4 @@ OOP provides better programmer productivity, better quality software and lesser 
 
 ## OOP as a misnomer
 * Often OOP and procedural proramming styles are mixed - this creates more problems than simplifying the solution!
-[Object-Oriented Programming — The Trillion Dollar Disaster](https://medium.com/better-programming/object-oriented-programming-the-trillion-dollar-disaster-92a4b666c7c7)
+* [Object-Oriented Programming — The Trillion Dollar Disaster](https://medium.com/better-programming/object-oriented-programming-the-trillion-dollar-disaster-92a4b666c7c7)

@@ -92,5 +92,16 @@ Programming paradigms are a way to classify programming languages based on their
 
 > *A language is said to support a style of programming if it provides facilities that make it convenient (reasonably easy, safe, and efficient) to use that style. A language does not support a technique if it takes exceptional effort or skill to write such programs; it merely enables the technique to be used. For example, it is possible to write structured programs in FORTRAN and Object-Oriented programs in C, but it is unnecessarily hard to do so because these languages do not directly support those techniques.*
 
-## OOP Paradigm Advantages
+## Advantages of OOP Programming
+OOP provides better programmer productivity, better quality software and lesser maintainence cost. The known advantages of OOP are:
+
+* Inheritance eliminates redundant code, and extends usage of existing class
+* Program can built as an interaction of existing modules without having to develop everything from scratch. 
+* Message passing techniques between objects make the interface descriptions simpler
+* Data hiding helps build secure programs 
+* Multiple instances of an object can co-exist without interference
+* Software design complexity is reduced, data centered approach helps capture real world problems more easily
+* Application areas of OOP based systems - EDA/CAD Systems, Real Time Systems, Simulation and Modelling, AI and xpert Systems etc.
+
 ## OOP as a misnomer
+* Often OOP and procedural proramming styles are mixed - this creates more problems than simplifying the solution! 

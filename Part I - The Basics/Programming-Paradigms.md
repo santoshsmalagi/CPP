@@ -105,5 +105,3 @@ OOP provides better programmer productivity, better quality software and lesser 
 
 ## OOP as a misnomer
 * Often OOP and procedural proramming styles are mixed - this creates more problems than simplifying the solution!
-* OOP is not everything about objects, but also about class design
-* Object-oriented programming is about design-time constraints.  Concepts such as reuse, maintainability, encapsulation, information hiding, and inheritance are all design-time constructs
